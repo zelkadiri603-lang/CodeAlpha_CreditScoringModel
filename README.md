@@ -234,17 +234,17 @@ This allows the trained model and preprocessing steps to be reused without retra
 
 ---
 
-📌 Results
+## 📌 Results
 
-The final model performance is evaluated using:
+The performance comparison of the classification models evaluated on the test set:
 
-Model| Accuracy| Precision| Recall| F1-Score| ROC-AUC
-Logistic Regression| —| —| —| —| —
-Decision Tree| —| —| —| —| —
-Random Forest| —| —| —| —| —
+| Model | Accuracy | Recall (Bad Risk) | Precision | F1-Score | ROC-AUC |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| Logistic Regression | 0.7050 | 0.4167 | 0.5102 | 0.4587 | 0.7461 |
+| Random Forest | **0.7850** | 0.4500 | **0.7297** | 0.5567 | 0.7901 |
+| **Gradient Boosting** | 0.7750 | **0.5167** | 0.6596 | **0.5794** | **0.8038** |
 
-The table will be updated with the final evaluation results after model training and testing.
-
+> **Note:** **Gradient Boosting** was selected as the final deployed pipeline (`credit_scoring_gb_pipeline.joblib`) because it achieved the highest **ROC-AUC (0.8038)** and **F1-Score (0.5794)**, offering the best balance for identifying credit default risks.
 ---
 
 🔍 Key Insights
