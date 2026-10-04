@@ -163,26 +163,24 @@ Measures the model's ability to distinguish between the two credit risk classes 
 
 ---
 
-📁 Project Structure
+📂 **Project Structure**
 
+```text
 CodeAlpha_CreditScoringModel/
-│
 ├── data/
 │   ├── german.data
 │   └── german.doc
-│
 ├── notebooks/
-│   ├── 01_data_exploration.ipynb
-│   └── credit_scoring_gb_pipeline.joblib
-│
+│   └── 01_data_exploration.ipynb
 ├── stages/
 │   └── ...
-│
-├── README.md
+├── credit_scoring_gb_pipeline.joblib
 ├── requirements.txt
-└── .gitignore
+├── .gitignore
+└── README.md
+```
 
-«The project structure may be updated as the project develops.»
+> *The project structure may be updated as the project develops.*
 
 ---
 
