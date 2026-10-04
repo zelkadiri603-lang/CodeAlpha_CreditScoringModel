@@ -291,4 +291,4 @@ Internship Period: September 10 – October 10, 2026
 
 ## 📄 License
 
-This project is open-source and intended for educational and portfolio purposes.
+This project is open-source and intended for educational and portfolio purposes 
